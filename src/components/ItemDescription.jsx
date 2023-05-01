@@ -8,7 +8,7 @@ function ItemDescription({itemDef, rarity}) {
                     <Container fluid>
                         <Row>
                             <Col className="mb-3">
-                                <Image src={itemDef.icon} className="img-fit-content"/>
+                                <Image src={itemDef.icon} alt={itemDef.name} className="img-fit-content"/>
                             </Col>
                         </Row>
                         <Row>
