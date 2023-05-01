@@ -1,0 +1,14 @@
+.img-fit-content {
+  max-width: fit-content;
+  max-height: fit-content;
+}
+
+body {
+  padding-top: 4.5rem;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -4.5rem;
+}
