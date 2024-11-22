@@ -21,11 +21,11 @@ export const ItemDefs = Object.freeze({
     }),
     ITEM_TRAINING_X3_ALL: Object.freeze({
         name: 'Training all boost x3',
-        description: 'Receive 3x the amount of BP/PP/AP/HP from all training (2 hours).',
+        description: 'Receive 3x the amount of BP/PP/AP/HP from all training (3 hours).',
         type: 'multiplier',
         targets: ['pp', 'bp', 'ap', 'hp'],
         amount: 3,
-        duration: 120,
+        duration: 180,
         icon: icon422,
         hidden: false,
     }),
